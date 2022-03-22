@@ -1,0 +1,12 @@
+{
+  "testURL": "https://http://localhost:3000/",
+  "collectCoverage": true,
+  "coverageReporters": ["json", "lcov", "text", "clover", "text-summary"],
+  "collectCoverageFrom": ["src/**"],
+  "moduleFileExtensions": ["js", "jsx"],
+  "transform": {
+    "^.+\\.(js|jsx)$": "babel-jest",
+    ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub"
+  },
+  "setupFilesAfterEnv": ["<rootDir>/src/specs/setupTests.js"]
+}
