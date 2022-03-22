@@ -7,7 +7,7 @@ Please check your own version numbers for compatibility if experiencing any diff
 Let's get started by cloning the code onto your machine and running the webapp:
 
 1. Navigate to your desired folder directory for source code (e.g. C:\Source\)
-2. Open up a command prompt / terminal and run 'git clone https://github.com/libgit2/libgit2'
+2. Open up a command prompt / terminal and run git clone "https://github.com/MatthewDKemp/account-ledger"
 3. Navigate inside the 'account-ledger' folder and run the following 2 commands in the order specified:
     a) npm i
     b) npm start
