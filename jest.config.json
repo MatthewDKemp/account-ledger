@@ -8,5 +8,6 @@
     "^.+\\.(js|jsx)$": "babel-jest",
     ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub"
   },
-  "setupFilesAfterEnv": ["<rootDir>/src/specs/setupTests.js"]
+  "setupFilesAfterEnv": ["<rootDir>/src/specs/setupTests.js"],
+  "coveragePathIgnorePatterns" : ["<rootDir>/src/specs/"]
 }

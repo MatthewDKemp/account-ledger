@@ -1,15 +1,15 @@
 import React from "react";
 import { shallow } from "enzyme";
-import { AccountLedger } from "../components/AccountLedger";
+import { Notices } from "../components/Notices";
 
 describe("Account Ledger Component Test", () => {
   beforeEach(() => {
     jest.clearAllMocks();
   });
 
-  const shallowComponent = () => shallow(<AccountLedger />);
+  const shallowComponent = () => shallow(<Notices />);
 
-  it("should render AccountLedger component", () => {
+  it("should render Notices component", () => {
     const component = shallowComponent();
     expect(component).toMatchSnapshot();
   });

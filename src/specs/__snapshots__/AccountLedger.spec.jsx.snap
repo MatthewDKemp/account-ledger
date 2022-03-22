@@ -1,3 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Account Ledger Component Test should render Counter component 1`] = `ShallowWrapper {}`;
+exports[`Account Ledger Component Test should render AccountLedger component 1`] = `ShallowWrapper {}`;
